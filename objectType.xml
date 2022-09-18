@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
-	<import>
-		<type>
-			<name>com.uz.wcf.bot.condition.showEntrys</name>
-			<definitionname>com.uz.wcf.bot.condition.user</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<conditionobject>com.woltlab.wcf.user</conditionobject>
-			<propertyname>showEntrys</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-	</import>
+    <import>
+        <type>
+            <name>com.uz.wcf.bot.condition.showEntrys</name>
+            <definitionname>com.uz.wcf.bot.condition.user</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <conditionobject>com.woltlab.wcf.user</conditionobject>
+            <propertyname>showEntrys</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+    </import>
 </data>

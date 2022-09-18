@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
-	<category name="wcf.acp.uzbot">
-		<item name="wcf.acp.uzbot.log.show.entry.affected"><![CDATA[Anzahl der betroffene Einträge gemäß Bedingungen: {$count}]]></item>
-		<item name="wcf.acp.uzbot.type.show_change"><![CDATA[Schaufenster - Eintrag - Änderung]]></item>
-		<item name="wcf.acp.uzbot.type.show_new"><![CDATA[Schaufenster - Eintrag - Neu]]></item>
-		
-		<item name="wcf.acp.uzbot.show.action.changed"><![CDATA[geändert]]></item>
-		<item name="wcf.acp.uzbot.show.action.deleted"><![CDATA[gelöscht]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.300"><![CDATA[Schaufenster - Eintrag - Änderung]]></item>
-		<item name="wcf.acp.uzbot.help.type.300.description"><![CDATA[<p>Dieser Bot überwacht die Änderung oder das Löschen von Einträgen und erstellt eine Benachrichtigung, wenn jemand einen Eintrag ändert oder löscht.</p>
+    <category name="wcf.acp.uzbot">
+        <item name="wcf.acp.uzbot.log.show.entry.affected"><![CDATA[Anzahl der betroffene Einträge gemäß Bedingungen: {$count}]]></item>
+        <item name="wcf.acp.uzbot.type.show_change"><![CDATA[Schaufenster - Eintrag - Änderung]]></item>
+        <item name="wcf.acp.uzbot.type.show_new"><![CDATA[Schaufenster - Eintrag - Neu]]></item>
+
+        <item name="wcf.acp.uzbot.show.action.changed"><![CDATA[geändert]]></item>
+        <item name="wcf.acp.uzbot.show.action.deleted"><![CDATA[gelöscht]]></item>
+
+        <item name="wcf.acp.uzbot.help.type.300"><![CDATA[Schaufenster - Eintrag - Änderung]]></item>
+        <item name="wcf.acp.uzbot.help.type.300.description"><![CDATA[<p>Dieser Bot überwacht die Änderung oder das Löschen von Einträgen und erstellt eine Benachrichtigung, wenn jemand einen Eintrag ändert oder löscht.</p>
 <p>Der Verfasser des Eintrags ist der betroffene Benutzer und kann direkt adressiert werden.</p>
 <br><p>Durch Konfiguration von Allgemeinen Benutzer-Bedingungen kann die Überwachung auf bestimmte Autoren begrenzt werden.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
@@ -41,9 +41,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.301"><![CDATA[Schaufenster - Eintrag - Neu]]></item>
-		<item name="wcf.acp.uzbot.help.type.301.description"><![CDATA[<p>Dieser Bot überwacht die Veröffentlichung von Einträgen und versendet eine Benachrichtigung, wenn ein Benutzer oder Gast einen neuen Eintrag verfasst hat und dieser veröffentlicht/freigeschaltet wird.</p>
+
+        <item name="wcf.acp.uzbot.help.type.301"><![CDATA[Schaufenster - Eintrag - Neu]]></item>
+        <item name="wcf.acp.uzbot.help.type.301.description"><![CDATA[<p>Dieser Bot überwacht die Veröffentlichung von Einträgen und versendet eine Benachrichtigung, wenn ein Benutzer oder Gast einen neuen Eintrag verfasst hat und dieser veröffentlicht/freigeschaltet wird.</p>
 <p>Der Verfasser des Eintrags ist der betroffene Benutzer und kann direkt adressiert werden.</p>
 <br><p>Durch Konfiguration der Allgemeinen Benutzer-Bedingungen lassen sich gezielt einzelne Benutzer überwachen.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
@@ -72,5 +72,5 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-	</category>
+    </category>
 </language>
