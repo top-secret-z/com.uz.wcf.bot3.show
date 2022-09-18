@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.acp.uzbot">
+		<item name="wcf.acp.uzbot.log.show.entry.affected"><![CDATA[Anzahl der betroffene Einträge gemäß Bedingungen: {$count}]]></item>
+		<item name="wcf.acp.uzbot.type.show_change"><![CDATA[Schaufenster - Eintrag - Änderung]]></item>
+		<item name="wcf.acp.uzbot.type.show_new"><![CDATA[Schaufenster - Eintrag - Neu]]></item>
+		
+		<item name="wcf.acp.uzbot.show.action.changed"><![CDATA[geändert]]></item>
+		<item name="wcf.acp.uzbot.show.action.deleted"><![CDATA[gelöscht]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.300"><![CDATA[Schaufenster - Eintrag - Änderung]]></item>
+		<item name="wcf.acp.uzbot.help.type.300.description"><![CDATA[<p>Dieser Bot überwacht die Änderung oder das Löschen von Einträgen und erstellt eine Benachrichtigung, wenn jemand einen Eintrag ändert oder löscht.</p>
+<p>Der Verfasser des Eintrags ist der betroffene Benutzer und kann direkt adressiert werden.</p>
+<br><p>Durch Konfiguration von Allgemeinen Benutzer-Bedingungen kann die Überwachung auf bestimmte Autoren begrenzt werden.</p>
+<br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[action]</strong></td><td>Ausgeführte Aktion: „geändert“ oder „gelöscht“</td></tr>
+<tr><td><strong>[count]</strong></td><td>Anzahl der geänderten / gelöschten Einträge (immer 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Anzahl der Einträge des betroffenen Benutzers</td></tr>
+<tr><td><strong>[entry-id]</strong></td><td>ID des bearbeiteten Eintrags</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link zum Eintrag</td></tr>
+<tr><td><strong>[entry-subject]</strong></td><td>Titel des Eintrags</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Einfach formatierter Text des Eintrags</td></tr>
+<tr><td><strong>[reason]</strong></td><td>Vom Benutzer angegebener Grund für das Bearbeiten</td></tr>
+<tr><td><strong>[changing-username]</strong></td><td>Name des Bnutzers, der den Eintrag geändert/gelöscht hat</td></tr>
+</table>
+<br><p>Die folgenden allgemeinen Platzhalter stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Datum der Bot-Ausführung</td></tr>
+<tr><td><strong>[time]</strong></td><td>Uhrzeit der Bot-Ausführung</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name dieser Webseite, wie im ACP angegeben</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Benutzername des Empfängers einer Benachrichtigung</td></tr>
+</table>
+<br><p>Die folgenden Benutzer-bezogenen Platzhalter (betroffene Benutzer) stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Alter des Benutzers</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>E-Mail-Adresse des Benutzers</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Namen der Benutzergruppen, denen der Benutzer angehört</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID des Benutzers</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name des Benutzers</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.301"><![CDATA[Schaufenster - Eintrag - Neu]]></item>
+		<item name="wcf.acp.uzbot.help.type.301.description"><![CDATA[<p>Dieser Bot überwacht die Veröffentlichung von Einträgen und versendet eine Benachrichtigung, wenn ein Benutzer oder Gast einen neuen Eintrag verfasst hat und dieser veröffentlicht/freigeschaltet wird.</p>
+<p>Der Verfasser des Eintrags ist der betroffene Benutzer und kann direkt adressiert werden.</p>
+<br><p>Durch Konfiguration der Allgemeinen Benutzer-Bedingungen lassen sich gezielt einzelne Benutzer überwachen.</p>
+<br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Anzahl der erstellten Einträge (immer 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Anzahl der durch den betroffenen Benutzer erstellten Einträge</td></tr>
+<tr><td><strong>[entry-category]</strong></td><td>Kategorie des Eintrags</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link zum erstellten Eintrag</td></tr>
+<tr><td><strong>[entry-subject]</strong></td><td>Titel des Eintrags</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Einfach formatierter Text des Eintrags</td></tr>
+</table>
+<br><p>Die folgenden allgemeinen Platzhalter stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Datum der Bot-Ausführung</td></tr>
+<tr><td><strong>[time]</strong></td><td>Uhrzeit der Bot-Ausführung</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name dieser Webseite, wie im ACP angegeben</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Benutzername des Empfängers einer Benachrichtigung</td></tr>
+</table>
+<br><p>Die folgenden Benutzer-bezogenen Platzhalter (betroffene Benutzer) stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Alter des Benutzers</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>E-Mail-Adresse des Benutzers</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Namen der Benutzergruppen, denen der Benutzer angehört</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID des Benutzers</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name des Benutzers</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
+</table>]]></item>
+	</category>
+</language>

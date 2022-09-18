@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.uzbot">
+		<item name="wcf.acp.uzbot.log.show.entry.affected"><![CDATA[Number of affected entries iaw condition: {$count}]]></item>
+		<item name="wcf.acp.uzbot.type.show_change"><![CDATA[Display Window - Entry - Change]]></item>
+		<item name="wcf.acp.uzbot.type.show_new"><![CDATA[Display Window - Entry - New]]></item>
+		
+		<item name="wcf.acp.uzbot.show.action.changed"><![CDATA[edited]]></item>
+		<item name="wcf.acp.uzbot.show.action.deleted"><![CDATA[deleted]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.300"><![CDATA[Display Window - Entry - Change]]></item>
+		<item name="wcf.acp.uzbot.help.type.300.description"><![CDATA[<p>This Bot monitors the modification or deletion of entries and sends a notification when somebody has edited or deleted an entry.</p>
+<p>The author of the entry is affected user and can be directly addressed.</p>
+<br><p>By configuration of general user conditions the monitoring can be limited to certain authors.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[action]</strong></td><td>Action executed by the user: “edited” or “deleted”</td></tr>
+<tr><td><strong>[count]</strong></td><td>Total number of modified / deleted entries (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Number of entries of the affected user</td></tr>
+<tr><td><strong>[entry-id]</strong></td><td>ID of the modified entry</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link to the entry</td></tr>
+<tr><td><strong>[entry-subject]</strong></td><td>Title of entry</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Text of entry in simplified formatting</td></tr>
+<tr><td><strong>[reason]</strong></td><td>Reason for the modification as given by the user</td></tr>
+<tr><td><strong>[changing-username]</strong></td><td>Name of the user changing / deleting the entry</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.301"><![CDATA[Display Window - Entry - New]]></item>
+		<item name="wcf.acp.uzbot.help.type.301.description"><![CDATA[<p>This bot monitors the publication of entries and sends a notification when a user or guest has created a new entry and the entry is published / enabled.</p>
+<p>The author of the entry is the affected user and can be directly addressed.</p>
+<br><p>By configuring the general user conditions, specific users can be monitored.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Total number of published entries (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Number of entries created by the affected user</td></tr>
+<tr><td><strong>[entry-category]</strong></td><td>Category of the entry</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link to the entry</td></tr>
+<tr><td><strong>[entry-subject]</strong></td><td>Title of the entry</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Text of the entry in simplified formatting</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+	</category>
+</language>
