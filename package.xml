@@ -7,6 +7,7 @@
         <packagedescription language="de">Erweitert Community Bot 3 um Schaufenster-Funktionen</packagedescription>
         <version>5.5.1</version>
         <date>2022-09-18</date>
+        <license><![CDATA[LGPL <https://opensource.org/licenses/lgpl-license.php>]]></license>
     </packageinformation>
 
     <authorinformation>
