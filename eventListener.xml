@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
-	<import>
-		<eventlistener name="uzbotShowEntryAction">
-			<eventclassname>show\data\entry\EntryAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<listenerclassname>show\system\event\listener\UzbotShowActionListener</listenerclassname>
-			<environment>user</environment>
-		</eventlistener>
-	</import>
+    <import>
+        <eventlistener name="uzbotShowEntryAction">
+            <eventclassname>show\data\entry\EntryAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <listenerclassname>show\system\event\listener\UzbotShowActionListener</listenerclassname>
+            <environment>user</environment>
+        </eventlistener>
+    </import>
 </data>
